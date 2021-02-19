@@ -2,5 +2,7 @@
 	"onboardingConfig": {
 		"extends": ["config:base"]
 	},
-	"logLevel": "debug"
+	"logLevel": "debug",
+	"username": "ben-foxmoore",
+	"gitAuthor": "renovate-bot <bot@github.com>"
 }
