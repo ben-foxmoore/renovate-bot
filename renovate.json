@@ -1,0 +1,5 @@
+{
+	"onboardingConfig": {
+		"extends": ["config:base"]
+	}
+}
