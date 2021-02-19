@@ -2,7 +2,20 @@
 	"onboardingConfig": {
 		"extends": ["config:base"]
 	},
-	"logLevel": "debug",
+	"logLevel": "trace",
 	"username": "ben-foxmoore",
-	"gitAuthor": "renovate-bot <bot@github.com>"
+	"gitAuthor": "renovate-bot <bot@github.com>",
+	"printConfig": true,
+	"trustLevel": "high",
+	"assignAutomerge": true,
+	"automerge": false,
+	"branchPrefix": "private-renovatebot/",
+	"platform": "github",
+	"includeForks": true,
+	"assigneesFromCodeOwners": true,
+	"prHourlyLimit": 0,
+	"timezone": "Arctic/Longyearbyen",
+	"extends": [
+		"config:base"
+	]
 }
