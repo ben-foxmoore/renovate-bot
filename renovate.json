@@ -1,6 +1,6 @@
 {
 	"onboardingConfig": {
-		"extends": "config:base"
+		"extends": ["config:base"]
 	},
 	"logLevel": "trace",
 	"username": "ben-foxmoore",
