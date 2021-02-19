@@ -17,5 +17,5 @@
 	"timezone": "Arctic/Longyearbyen",
 	"extends": [
 		"config:base"
-	],
+	]
 }
