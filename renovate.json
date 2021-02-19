@@ -2,5 +2,5 @@
 	"onboardingConfig": {
 		"extends": ["config:base"]
 	},
-	logLevel: 'debug'
+	"logLevel": "debug"
 }
