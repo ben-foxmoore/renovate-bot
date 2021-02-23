@@ -9,7 +9,7 @@ module.exports = {
     onboardingBranch: `${branchName}/configure`,
     platform: 'github',
     dryRun: false,
-    username: 'ben-foxmoore',
+    username: 'self-renovate',
     repositories: [
         'ben-foxmoore/renovate-bot',
     ],
