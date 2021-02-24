@@ -10,7 +10,7 @@ module.exports = {
     platform: 'github',
     dryRun: false,
     username: 'self-renovate[bot]',
-//     repositories: [
-//         'ben-foxmoore/renovate-bot',
-//     ],
+    repositories: [
+        'ben-foxmoore/renovate-bot',
+    ],
 };
