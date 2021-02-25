@@ -19,6 +19,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
 
+      - name: Check ENV
+        env:
+          LOG_LEVEL: 'trace'
+        run: |
+          echo $LOG_LEVEL
+
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v24.57.0
         env:
