@@ -12,5 +12,6 @@ module.exports = {
     username: 'self-renovate[bot]',
     repositories: [
         'ben-foxmoore/renovate-bot',
+        'ben-foxmoore/github-actions-runner-docker',
     ],
 };
