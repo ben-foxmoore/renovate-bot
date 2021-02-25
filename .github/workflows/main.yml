@@ -8,6 +8,8 @@ on:
 jobs:
   renovate:
     runs-on: ubuntu-latest
+    env:
+      LOG_LEVEL: trace
     steps:
       - name: Get token
         id: get_token
