@@ -13,5 +13,6 @@ module.exports = {
     repositories: [
         'ben-foxmoore/renovate-bot',
         'ben-foxmoore/github-actions-runner-docker',
+        'ben-foxmoore/kube-state-metrics',
     ],
 };
