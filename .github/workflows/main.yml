@@ -22,7 +22,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v24.57.0
         env:
-          LOG_LEVEL: trace
+          LOG_LEVEL: 'trace'
         with:
           configurationFile: renovate-config.js
           token: "x-access-token:${{ steps.get_token.outputs.app_token }}"
