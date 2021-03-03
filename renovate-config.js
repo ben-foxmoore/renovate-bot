@@ -14,5 +14,6 @@ module.exports = {
         'ben-foxmoore/renovate-bot',
         'ben-foxmoore/github-actions-runner-docker',
         'ben-foxmoore/kube-state-metrics',
+        'ben-foxmoore/docker-build-env',
     ],
 };
