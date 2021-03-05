@@ -10,5 +10,5 @@
       "updateTypes": ["major", "minor", "patch"],
       "semanticCommitType": "fix"
     }
-  ],
+  ]
 }
