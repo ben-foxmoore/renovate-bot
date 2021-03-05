@@ -1,3 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "major": {
+    "stabilityDays": 7
+  },
+  "packageRules": [
+    {
+      "description": "Automerge Renovate Github Action updates",
+      "packageNames": ["renovatebot/github-action"],
+      "updateTypes": ["major", "minor", "patch"],
+      "semanticCommitType": "fix"
+    }
+  ],
 }
