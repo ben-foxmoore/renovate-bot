@@ -16,4 +16,5 @@ module.exports = {
         'ben-foxmoore/kube-state-metrics',
         'ben-foxmoore/docker-build-env',
     ],
+    includeForks: true
 };
