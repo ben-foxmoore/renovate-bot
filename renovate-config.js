@@ -1,9 +1,7 @@
 const branchName = 'github-renovate';
 
 module.exports = {
-    branchPrefix: `${branchName}/`,
-    dependencyDashboardTitle: 'Dependency Dashboard self-hosted',
-    gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
+    // Self-hosted configuration options
     onboardingBranch: `${branchName}/configure`,
     platform: 'github',
     dryRun: null,
@@ -14,5 +12,10 @@ module.exports = {
         'ben-foxmoore/kube-state-metrics',
         'ben-foxmoore/docker-build-env',
     ],
-    includeForks: true
+    // Default Repository configuration options
+    branchPrefix: `${branchName}/`,
+    dependencyDashboard: true,
+    dependencyDashboardTitle: 'Dependency Dashboard self-hosted',
+    gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
+    includeForks: true,
 };
