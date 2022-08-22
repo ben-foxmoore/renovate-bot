@@ -11,6 +11,7 @@ module.exports = {
         'ben-foxmoore/github-actions-runner-docker',
         'ben-foxmoore/kube-state-metrics',
         'ben-foxmoore/docker-build-env',
+        'accelleran/docker-build-env',
     ],
     // Default Repository configuration options
     branchPrefix: `${branchName}/`,
