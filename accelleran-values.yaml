@@ -1,0 +1,5 @@
+branchPrefix: 'renovate'
+appId: '230720'
+appName: 'acc-renovate'
+repositories:
+  - 'accelleran/docker-build-env'

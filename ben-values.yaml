@@ -1,0 +1,8 @@
+branchPrefix: 'renovate'
+appId: '101430'
+appName: 'self-renovate'
+repositories:
+  - 'ben-foxmoore/docker-build-env'
+  - 'ben-foxmoore/renovate-bot'
+  - 'ben-foxmoore/github-actions-runner-docker'
+  - 'ben-foxmoore/kube-state-metrics'

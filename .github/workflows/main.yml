@@ -19,6 +19,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.0.2
 
+      - name: Generate Renovate configuration
+        uses: cuchi/jinja2-action@v1.2.0
+        with:
+          template: renovate-config.js.jinja
+          output_file: renovate-config.js
+          strict: true
+          data_file: ${{ secrets.CONFIG_VALUES_FILE }}
+
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v32.164.0
         env:
