@@ -1,22 +1,21 @@
-const branchName = 'github-renovate';
+const branchPrefix = 'renovate';
+const appName = 'acc-renovate';
+const appId = '230720';
 
 module.exports = {
     // Self-hosted configuration options
-    onboardingBranch: `${branchName}/configure`,
+    onboardingBranch: `${branchPrefix}/configure`,
     platform: 'github',
     dryRun: null,
-    username: 'self-renovate[bot]',
+    // Default Repository configuration options
+    branchPrefix: `${branchPrefix}/`,
+    branchPrefixOld: `github-renovate/`,
+    dependencyDashboard: true,
+    dependencyDashboardTitle: 'Dependency Dashboard',
+    // Options depending on Github App configuration
+    username: '${appName}[bot]',
+    gitAuthor: 'Renovate Bot <${appId}+${appName}@users.noreply.github.com>',
     repositories: [
-        'ben-foxmoore/renovate-bot',
-        'ben-foxmoore/github-actions-runner-docker',
-        'ben-foxmoore/kube-state-metrics',
-        'ben-foxmoore/docker-build-env',
         'accelleran/docker-build-env',
     ],
-    // Default Repository configuration options
-    branchPrefix: `${branchName}/`,
-    dependencyDashboard: true,
-    dependencyDashboardTitle: 'Dependency Dashboard self-hosted',
-    gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
-    includeForks: true,
 };
